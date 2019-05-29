@@ -1,0 +1,10 @@
+version: "2"
+services:
+  ossimport2:
+    restart: unless-stopped
+    image: ristory/ossimport2
+    container_name: oss
+    volumes:
+      - ./conf/local_job.cfg:/root/ossimport/conf/local_job.cfg
+      - /root/data/isz:/data
+    network_mode: bridge
