@@ -11,3 +11,4 @@
 基于sentry+redis+memcached+postgresql
 用于收集WARN以上级别日志，结合钉钉和邮件通知实时告警
 修改sentry源码，实现自定义告警级别匹配
+https://github.com/RistoryWang/ristory-sentry
