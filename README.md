@@ -15,3 +15,6 @@
 
 # ossimport2
 快捷同步oss数据
+
+# rpc
+nacos+dubbo
